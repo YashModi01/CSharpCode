@@ -64,7 +64,7 @@ namespace Newproject
 
             // Mad lib
 
-            string color, noun, celebrity;
+            /*string color, noun, celebrity;
 
             Console.Write("Enter a color: ");
             color = Console.ReadLine();
@@ -77,7 +77,18 @@ namespace Newproject
 
             Console.WriteLine("Roses are " + color);
             Console.WriteLine(noun + " are blue");
-            Console.WriteLine("I Love " + celebrity);
+            Console.WriteLine("I Love " + celebrity);*/
+
+            // Arrays
+
+            int[] numbers = {4,5,6,7,8,9};
+            numbers[2] = 10;
+            Console.WriteLine(numbers[1]);
+            Console.WriteLine(numbers[2]);
+
+            string[] friends = new string[10];
+            friends[0] = "A";
+            friends[1] = "B";
 
 
 
