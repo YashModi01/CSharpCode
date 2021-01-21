@@ -41,6 +41,8 @@ namespace Newproject
             Console.WriteLine(name.IndexOf('n'));
             Console.WriteLine(name.Substring(14, 5));
 
+            // Numbers
+
         }
     }
 }
