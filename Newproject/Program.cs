@@ -51,7 +51,19 @@ namespace Newproject
             string name = Console.ReadLine();
             Console.WriteLine("Hello " + name);*/
 
-           
+            // Converting string to int
+            /*int num = Convert.ToInt32("50");
+            Console.WriteLine(num + 10);*/
+
+            /*Console.Write("Enter a num: ");
+            double num1 = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Enter another num: ");
+            double num2 = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine(num1 + num2);*/
+
+
+
 
         }
     }
