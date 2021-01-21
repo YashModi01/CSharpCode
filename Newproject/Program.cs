@@ -29,7 +29,7 @@ namespace Newproject
             Console.WriteLine("These are my details: Name: " + name + ", Age: " + age + ", Grade: " + grade + ", GPA: " + gpa + ", Graduated:" + hasGraduated); */
 
             // String
-            Console.WriteLine("Yash\nModi");
+            /*Console.WriteLine("Yash\nModi");
             string name = "University of Texas at Dallas";
 
             // String methods
@@ -39,9 +39,19 @@ namespace Newproject
             Console.WriteLine(name.Contains("Dallas"));
             Console.WriteLine(name[0]);
             Console.WriteLine(name.IndexOf('n'));
-            Console.WriteLine(name.Substring(14, 5));
+            Console.WriteLine(name.Substring(14, 5));*/
 
-            // Numbers
+            // Working with Numbers
+            /*Console.WriteLine(Math.Abs(-40));
+            Console.WriteLine(Math.Pow(2,4));
+            Console.WriteLine(Math.Sqrt(36));*/
+
+            // Getting User Input
+            /*Console.Write("Enter your name: ");
+            string name = Console.ReadLine();
+            Console.WriteLine("Hello " + name);*/
+
+           
 
         }
     }
