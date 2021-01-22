@@ -91,13 +91,34 @@ namespace Newproject
             friends[1] = "B";*/
 
             // Methods
-            
-           /* Hello("Yash");
 
-            int cubedNumber = Cube(5);
-            Console.WriteLine(cubedNumber); */
+            /* Hello("Yash");
+
+             int cubedNumber = Cube(5);
+             Console.WriteLine(cubedNumber); */
 
             // if statement
+            bool isMale = false;
+            bool isTall = false;
+
+            if (isMale && isTall)
+            {
+                Console.WriteLine("You are Male and Tall");
+            } 
+            else if (isMale && !isTall)
+            {
+                Console.WriteLine("You are Male but not Tall");
+            }
+            else if (!isMale && isTall)
+            {
+                Console.WriteLine("You are not Male but you are Tall");
+            } 
+            else
+            {
+                Console.WriteLine("You are not Male and you are not Tall");
+            }
+
+
         }
 
         /* static void Hello(string name)
