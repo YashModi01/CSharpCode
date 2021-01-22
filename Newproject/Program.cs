@@ -81,20 +81,34 @@ namespace Newproject
 
             // Arrays
 
-            int[] numbers = {4,5,6,7,8,9};
+            /*int[] numbers = {4,5,6,7,8,9};
             numbers[2] = 10;
             Console.WriteLine(numbers[1]);
             Console.WriteLine(numbers[2]);
 
             string[] friends = new string[10];
             friends[0] = "A";
-            friends[1] = "B";
+            friends[1] = "B";*/
 
+            // Methods
+            
+           /* Hello("Yash");
 
+            int cubedNumber = Cube(5);
+            Console.WriteLine(cubedNumber); */
 
-
-
-
+            // if statement
         }
+
+        /* static void Hello(string name)
+        {
+            Console.WriteLine("Hello " + name);
+        }
+
+        static int Cube(int number)
+        {
+            int result = number * number * number;
+            return result;
+        } */
     }
 }
