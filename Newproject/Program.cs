@@ -98,7 +98,7 @@ namespace Newproject
              Console.WriteLine(cubedNumber); */
 
             // if statement
-            bool isMale = false;
+            /* bool isMale = false;
             bool isTall = false;
 
             if (isMale && isTall)
@@ -117,6 +117,38 @@ namespace Newproject
             {
                 Console.WriteLine("You are not Male and you are not Tall");
             }
+            */
+            /*
+            Console.Write("Enter num1: ");
+            double num1 = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Enter any operator ");
+            string op = Console.ReadLine();
+
+            Console.Write("Enter num2: ");
+            double num2 = Convert.ToDouble(Console.ReadLine());
+
+            if (op == "+")
+            {
+                Console.WriteLine(num1 + num2);
+            } 
+            else if (op == "-")
+            {
+                Console.WriteLine(num1 - num2);
+            }
+            else if (op == "*")
+            {
+                Console.WriteLine(num1 * num2);
+            }
+            else if (op == "/")
+            {
+                Console.WriteLine(num1 / num2);
+            } 
+            else
+            {
+                Console.WriteLine("Invalid Operator");
+            }
+            */
 
 
         }
