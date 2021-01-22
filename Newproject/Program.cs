@@ -150,6 +150,14 @@ namespace Newproject
             }
             */
 
+            // loops
+            /* int index = 1;
+            while(index <= 5)
+            {
+                Console.WriteLine(index);
+                index += 1;
+            }
+            */
 
         }
 
