@@ -189,6 +189,14 @@ namespace Newproject
             }
             */
 
+            // for loops
+            /*
+            int[] luckyNumbers = { 4, 6, 9, 18, 25 };
+            for (int i = 0; i < luckyNumbers.Length; i++)
+            {
+                Console.WriteLine(luckyNumbers[i]);
+            }
+            */
 
         }
 
