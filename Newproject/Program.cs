@@ -247,6 +247,12 @@ namespace Newproject
             /*book1.title = "Harry Potter";
             book1.author = "JK Rowling";
             book1.pages = 400; */
+
+            Chef chef = new Chef();
+            chef.Makepizza();
+
+            ItalianChef ichef = new ItalianChef();
+            ichef.Makepizza();
         }
 
         /*
