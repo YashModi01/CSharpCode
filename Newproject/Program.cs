@@ -235,6 +235,17 @@ namespace Newproject
                 Console.WriteLine("Exception Handled");
             }
             */
+
+            // Classes and Objects
+            Book book1 = new Book();
+            book1.title = "The Alchemist";
+            book1.author = "Paulo Coelho";
+            book1.pages = 200;
+
+            Book book2 = new Book();
+            book1.title = "Harry Potter";
+            book1.author = "JK Rowling";
+            book1.pages = 400;
         }
 
         /*
