@@ -237,15 +237,16 @@ namespace Newproject
             */
 
             // Classes and Objects
-            Book book1 = new Book();
-            book1.title = "The Alchemist";
+            Book book1 = new Book("The Alchemist", "Paulo Coelho", 200);
+            Console.WriteLine(book1.title);
+            /* book1.title = "The Alchemist";
             book1.author = "Paulo Coelho";
-            book1.pages = 200;
+            book1.pages = 200; */
 
-            Book book2 = new Book();
-            book1.title = "Harry Potter";
+            Book book2 = new Book("Harry Potter", "JK Rowling", 400);
+            /*book1.title = "Harry Potter";
             book1.author = "JK Rowling";
-            book1.pages = 400;
+            book1.pages = 400; */
         }
 
         /*
